@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Large/derived outputs
+VideoOutput/
+*.mp4
+*.avi
+*.mkv
+
+# Models / weights / pickles
+Models/
+WeightsTracknet/
+Yolov3/weights/
+*.pt
+*.onnx
+*.weights
+clf.pkl
+
+# Big data files
+bigDF.csv
+Bounces/
+
+# OS/editor
+.DS_Store
+*.lnk
